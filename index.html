@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <style>
+            body {
+              background-image: url('Earth.jpg');
+              background-repeat: no-repeat;
+              background-attachment: fixed;
+              background-size: cover;
+            }
+            .button1 { 
+                       padding: 12px 28px;
+                       color: rgb(241, 236, 236);
+                       border: 1px solid #eaeae3;
+                     }
+            .button2 { 
+                       padding: 12px 28px;
+                       color: rgb(241, 236, 236);
+                       border: 1px solid #eaeae3;
+                     }  
+            .main {
+                max-width: 500px;
+                margin: auto;
+            }      
+            
+            </style>
+    </head>
+    <body>
+        <div class="main">
+            <p style="background-image: url('Earth.jpg');"></p>
+            <h1 id="welcome-el"></h1>
+            <h1>Counter :</h1>
+            <h2 id="count">0</h2>
+            <button class="button1" id="increment-btn" onclick="increment()">INCREMENT</button>
+            <button class="button2" id="save-btn" onclick="save()">SAVE</button>
+            <p id="save-el">Previous entires : </p>
+            <script src="Test.js"></script>
+        </div>
+       
+    </body>
+</html>
